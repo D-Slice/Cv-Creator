@@ -9,7 +9,7 @@ export class AppComponent implements OnInit{
   title = 'cv';
   ngOnInit():void{
     $('h1').click(function(){
-      console.log('jquery works');
+      alert('jquery works');
     })
   }
 }
